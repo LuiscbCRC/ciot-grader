@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ESNext",
+    "lib": ["ES2015", "DOM"],
+    "moduleResolution": "Node",
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "jsx": "react",
+    "outDir": "./dist/esm",
+    "isolatedModules": true,
+    "declaration": true,
+
+    /* Bundler mode */
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+
+    /* Linting */
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
